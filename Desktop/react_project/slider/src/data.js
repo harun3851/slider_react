@@ -12,7 +12,7 @@ const imageSlide=[
 
         {
             name: 'img-3.jpg',
-            title:'slider-2',
+            title:'slider-3',
             body:'body3',   
             },
         

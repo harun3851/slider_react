@@ -2,3 +2,19 @@
 height: 100%;
 position:  relative;
 }
+
+.description{
+    width: 600px;
+    position: absolute;
+    z-index:999;
+    color:aliceblue;
+    top: 20%;
+    left: 10%;
+}
+.description h1{
+    font-size: 46;
+}
+
+.description p{
+    font-size: 22px;
+}

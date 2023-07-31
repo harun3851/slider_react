@@ -7,7 +7,7 @@ const imageSlide=[
     {
         name: 'img-2.jpg',
         title:'slider-2',
-        body:'body3',  
+        body:'body2',  
         },
 
         {

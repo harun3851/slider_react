@@ -4,7 +4,7 @@ import imageSlide from './data';
 
 
   const BackgroundSlider = () => {
-    const[currentState, setCurrentState]= useState(2);
+    const[currentState, setCurrentState]= useState(0);
     useEffect(()=>{
         const timer=setTimeout(()=>
        {
@@ -14,7 +14,9 @@ import imageSlide from './data';
         {
             setCurrentState(currentState+1)
         }
-       },15000 )
+       },5000 )
+return()=>clearTimeout(timer);
+
     },[currentState]);
     const bgImageStyle={
         backgroundImage:`url(${imageSlide[currentState].name})`,

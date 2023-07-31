@@ -1,3 +1,6 @@
+
+
+
 .countiner-style{
 height: 100%;
 position:  relative;
@@ -8,7 +11,7 @@ position:  relative;
     position: absolute;
     z-index:999;
     color:aliceblue;
-    top: 20%;
+    top: 50%;
     left: 10%;
 }
 .description h1{
